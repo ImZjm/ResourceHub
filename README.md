@@ -16,7 +16,7 @@
         "branch": "main",
         "token": "",
         "path": "",
-        "customUrl": "https://cdn.jsdelivr.net/gh/ImZjm/ResourceHub@Data"
+        "customUrl": "https://cdn.jsdelivr.net/gh/ImZjm/ResourceHub"
     }
 }
 ```
