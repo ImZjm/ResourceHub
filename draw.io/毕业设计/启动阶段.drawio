@@ -1,9 +1,86 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="-v5uDTYBX0Cyw2D3ey9m">
-    <mxGraphModel>
+    <mxGraphModel dx="2204" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4PbjHM49gBCA9sw7AhCS-24" edge="1" parent="1" source="4PbjHM49gBCA9sw7AhCS-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4PbjHM49gBCA9sw7AhCS-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4PbjHM49gBCA9sw7AhCS-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="系统上电" vertex="1">
+          <mxGeometry height="54" width="124" x="193" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4PbjHM49gBCA9sw7AhCS-23" edge="1" parent="1" source="4PbjHM49gBCA9sw7AhCS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4PbjHM49gBCA9sw7AhCS-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4PbjHM49gBCA9sw7AhCS-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="读取启动相关开关状态" vertex="1">
+          <mxGeometry height="54" width="220" x="145" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="4PbjHM49gBCA9sw7AhCS-26" edge="1" parent="1" source="4PbjHM49gBCA9sw7AhCS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4PbjHM49gBCA9sw7AhCS-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4PbjHM49gBCA9sw7AhCS-29" connectable="0" parent="4PbjHM49gBCA9sw7AhCS-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.628" as="geometry">
+            <mxPoint x="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4PbjHM49gBCA9sw7AhCS-27" edge="1" parent="1" source="4PbjHM49gBCA9sw7AhCS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4PbjHM49gBCA9sw7AhCS-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4PbjHM49gBCA9sw7AhCS-28" connectable="0" parent="4PbjHM49gBCA9sw7AhCS-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.273" y="-1" as="geometry">
+            <mxPoint x="22" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4PbjHM49gBCA9sw7AhCS-4" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=none;" value="是否启用无线 REPL" vertex="1">
+          <mxGeometry height="118" width="190" x="160" y="332" as="geometry" />
+        </mxCell>
+        <mxCell id="4PbjHM49gBCA9sw7AhCS-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="配置无线串口映射" vertex="1">
+          <mxGeometry height="54" width="188" x="-120" y="364" as="geometry" />
+        </mxCell>
+        <mxCell id="4PbjHM49gBCA9sw7AhCS-33" edge="1" parent="1" source="4PbjHM49gBCA9sw7AhCS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4PbjHM49gBCA9sw7AhCS-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4PbjHM49gBCA9sw7AhCS-34" connectable="0" parent="4PbjHM49gBCA9sw7AhCS-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.7487" y="1" as="geometry">
+            <mxPoint y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4PbjHM49gBCA9sw7AhCS-35" edge="1" parent="1" source="4PbjHM49gBCA9sw7AhCS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4PbjHM49gBCA9sw7AhCS-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4PbjHM49gBCA9sw7AhCS-7" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=none;" value="是否允许启动主程序" vertex="1">
+          <mxGeometry height="110" width="198" x="156" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="4PbjHM49gBCA9sw7AhCS-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="加载并执行app" vertex="1">
+          <mxGeometry height="54" width="190" x="-121" y="588" as="geometry" />
+        </mxCell>
+        <mxCell id="4PbjHM49gBCA9sw7AhCS-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="启动REPL" vertex="1">
+          <mxGeometry height="54" width="188" x="161" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="4PbjHM49gBCA9sw7AhCS-25" edge="1" parent="1" source="4PbjHM49gBCA9sw7AhCS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="4PbjHM49gBCA9sw7AhCS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4PbjHM49gBCA9sw7AhCS-30" edge="1" parent="1" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-33" y="500" />
+              <mxPoint x="153" y="500" />
+            </Array>
+            <mxPoint x="-32.999999999999886" y="418" as="sourcePoint" />
+            <mxPoint x="253" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4PbjHM49gBCA9sw7AhCS-40" edge="1" parent="1" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.47;exitY=1.016;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-31" y="642.14" />
+              <mxPoint x="-31" y="816.14" />
+            </Array>
+            <mxPoint x="-32.700000000000045" y="642.004" as="sourcePoint" />
+            <mxPoint x="160" y="816.14" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
