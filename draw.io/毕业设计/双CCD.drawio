@@ -1,9 +1,51 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="ZZROomGxAjZNVAIiVtHU">
-    <mxGraphModel>
+    <mxGraphModel dx="964" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Fyv5tgcPW2UnVRiNs2Lm-20" edge="1" parent="1" source="Fyv5tgcPW2UnVRiNs2Lm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Fyv5tgcPW2UnVRiNs2Lm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fyv5tgcPW2UnVRiNs2Lm-21" edge="1" parent="1" source="Fyv5tgcPW2UnVRiNs2Lm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Fyv5tgcPW2UnVRiNs2Lm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fyv5tgcPW2UnVRiNs2Lm-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="启动双CCD采样" vertex="1">
+          <mxGeometry height="54" width="179" x="214" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fyv5tgcPW2UnVRiNs2Lm-15" edge="1" parent="1" source="Fyv5tgcPW2UnVRiNs2Lm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Fyv5tgcPW2UnVRiNs2Lm-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fyv5tgcPW2UnVRiNs2Lm-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="近场CCD获取当前位置信息" vertex="1">
+          <mxGeometry height="54" width="259" x="20" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="Fyv5tgcPW2UnVRiNs2Lm-16" edge="1" parent="1" source="Fyv5tgcPW2UnVRiNs2Lm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Fyv5tgcPW2UnVRiNs2Lm-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fyv5tgcPW2UnVRiNs2Lm-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="远场CCD获取前方趋势信息" vertex="1">
+          <mxGeometry height="54" width="259" x="329" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="Fyv5tgcPW2UnVRiNs2Lm-17" edge="1" parent="1" source="Fyv5tgcPW2UnVRiNs2Lm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Fyv5tgcPW2UnVRiNs2Lm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fyv5tgcPW2UnVRiNs2Lm-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="形成近场观测量" vertex="1">
+          <mxGeometry height="54" width="172" x="63" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="Fyv5tgcPW2UnVRiNs2Lm-18" edge="1" parent="1" source="Fyv5tgcPW2UnVRiNs2Lm-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Fyv5tgcPW2UnVRiNs2Lm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fyv5tgcPW2UnVRiNs2Lm-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="形成远场观测量" vertex="1">
+          <mxGeometry height="54" width="172" x="372" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="Fyv5tgcPW2UnVRiNs2Lm-19" edge="1" parent="1" source="Fyv5tgcPW2UnVRiNs2Lm-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Fyv5tgcPW2UnVRiNs2Lm-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fyv5tgcPW2UnVRiNs2Lm-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="双视角信息互补" vertex="1">
+          <mxGeometry height="54" width="172" x="218" y="332" as="geometry" />
+        </mxCell>
+        <mxCell id="Fyv5tgcPW2UnVRiNs2Lm-7" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="输出用于后续控制的综合观测" vertex="1">
+          <mxGeometry height="54" width="260" x="174" y="436" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
