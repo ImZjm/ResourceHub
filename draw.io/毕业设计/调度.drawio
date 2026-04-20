@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="fdCTqZwBEFcVTL1RvFCw">
+    <mxGraphModel dx="1205" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pjiHDZ4J7BrmlbO9xxZN-24" edge="1" parent="1" source="pjiHDZ4J7BrmlbO9xxZN-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pjiHDZ4J7BrmlbO9xxZN-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pjiHDZ4J7BrmlbO9xxZN-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="定时器触发" vertex="1">
+          <mxGeometry height="54" width="140" x="133" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pjiHDZ4J7BrmlbO9xxZN-23" edge="1" parent="1" source="pjiHDZ4J7BrmlbO9xxZN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pjiHDZ4J7BrmlbO9xxZN-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pjiHDZ4J7BrmlbO9xxZN-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="置位采样标志" vertex="1">
+          <mxGeometry height="54" width="156" x="125" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="pjiHDZ4J7BrmlbO9xxZN-22" edge="1" parent="1" source="pjiHDZ4J7BrmlbO9xxZN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pjiHDZ4J7BrmlbO9xxZN-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pjiHDZ4J7BrmlbO9xxZN-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="主循环检测标志" vertex="1">
+          <mxGeometry height="54" width="172" x="117" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="pjiHDZ4J7BrmlbO9xxZN-18" edge="1" parent="1" source="pjiHDZ4J7BrmlbO9xxZN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pjiHDZ4J7BrmlbO9xxZN-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pjiHDZ4J7BrmlbO9xxZN-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="读取 CCD 数据" vertex="1">
+          <mxGeometry height="54" width="163" x="122" y="332" as="geometry" />
+        </mxCell>
+        <mxCell id="pjiHDZ4J7BrmlbO9xxZN-25" edge="1" parent="1" source="pjiHDZ4J7BrmlbO9xxZN-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pjiHDZ4J7BrmlbO9xxZN-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pjiHDZ4J7BrmlbO9xxZN-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="分频判断是否进入控制" vertex="1">
+          <mxGeometry height="54" width="220" x="93" y="436" as="geometry" />
+        </mxCell>
+        <mxCell id="pjiHDZ4J7BrmlbO9xxZN-26" edge="1" parent="1" source="pjiHDZ4J7BrmlbO9xxZN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pjiHDZ4J7BrmlbO9xxZN-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pjiHDZ4J7BrmlbO9xxZN-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="执行误差计算" vertex="1">
+          <mxGeometry height="54" width="156" x="125" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="pjiHDZ4J7BrmlbO9xxZN-27" edge="1" parent="1" source="pjiHDZ4J7BrmlbO9xxZN-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pjiHDZ4J7BrmlbO9xxZN-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pjiHDZ4J7BrmlbO9xxZN-7" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="PID 计算" vertex="1">
+          <mxGeometry height="54" width="120" x="143" y="644" as="geometry" />
+        </mxCell>
+        <mxCell id="pjiHDZ4J7BrmlbO9xxZN-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="输出电机控制" vertex="1">
+          <mxGeometry height="54" width="156" x="125" y="748" as="geometry" />
+        </mxCell>
+        <mxCell id="pjiHDZ4J7BrmlbO9xxZN-28" edge="1" parent="1" source="pjiHDZ4J7BrmlbO9xxZN-8" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="pjiHDZ4J7BrmlbO9xxZN-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="520" />
+            </Array>
+            <mxPoint x="388" y="480" as="sourcePoint" />
+            <mxPoint x="590" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
