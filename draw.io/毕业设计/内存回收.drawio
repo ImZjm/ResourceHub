@@ -1,9 +1,64 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="0veWzAt8LYY2S_jyXi3i">
-    <mxGraphModel>
+    <mxGraphModel dx="1071" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jRrRFd4Ryz-2NmZWbKoh-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="主循环运行" vertex="1">
+          <mxGeometry height="54" width="140" x="97" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jRrRFd4Ryz-2NmZWbKoh-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="刷新 CCD 显示" vertex="1">
+          <mxGeometry height="54" width="163" x="25" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="jRrRFd4Ryz-2NmZWbKoh-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="更新状态信息" vertex="1">
+          <mxGeometry height="54" width="156" x="28" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="jRrRFd4Ryz-2NmZWbKoh-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="执行垃圾回收" vertex="1">
+          <mxGeometry height="54" width="156" x="28" y="332" as="geometry" />
+        </mxCell>
+        <mxCell id="jRrRFd4Ryz-2NmZWbKoh-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="维持运行稳定性" vertex="1">
+          <mxGeometry height="54" width="172" x="20" y="436" as="geometry" />
+        </mxCell>
+        <mxCell id="jRrRFd4Ryz-2NmZWbKoh-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="保留扩展接口" vertex="1">
+          <mxGeometry height="54" width="156" x="89" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="jRrRFd4Ryz-2NmZWbKoh-7" edge="1" parent="1" source="jRrRFd4Ryz-2NmZWbKoh-1" style="curved=1;startArrow=none;endArrow=block;exitX=0.27;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="jRrRFd4Ryz-2NmZWbKoh-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="106" y="99" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jRrRFd4Ryz-2NmZWbKoh-8" edge="1" parent="1" source="jRrRFd4Ryz-2NmZWbKoh-2" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="jRrRFd4Ryz-2NmZWbKoh-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jRrRFd4Ryz-2NmZWbKoh-9" edge="1" parent="1" source="jRrRFd4Ryz-2NmZWbKoh-3" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="jRrRFd4Ryz-2NmZWbKoh-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jRrRFd4Ryz-2NmZWbKoh-10" edge="1" parent="1" source="jRrRFd4Ryz-2NmZWbKoh-4" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="jRrRFd4Ryz-2NmZWbKoh-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jRrRFd4Ryz-2NmZWbKoh-11" edge="1" parent="1" source="jRrRFd4Ryz-2NmZWbKoh-5" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.3;entryY=0;rounded=0;" target="jRrRFd4Ryz-2NmZWbKoh-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="106" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jRrRFd4Ryz-2NmZWbKoh-12" edge="1" parent="1" source="jRrRFd4Ryz-2NmZWbKoh-6" style="curved=1;startArrow=none;endArrow=block;exitX=0.7;exitY=0;entryX=0.72;entryY=1;rounded=0;" target="jRrRFd4Ryz-2NmZWbKoh-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="227" y="515" />
+              <mxPoint x="227" y="99" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
