@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="FSt479wwhXZQIxWG6IBh">
-    <mxGraphModel dx="1753" dy="1013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1928" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
         </mxCell>
         <mxCell id="T3tHhPxtqn0_50OSmm_h-61" connectable="0" parent="T3tHhPxtqn0_50OSmm_h-60" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
           <mxGeometry relative="1" x="-0.7766" y="3" as="geometry">
-            <mxPoint x="32" y="16" as="offset" />
+            <mxPoint x="3" y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="T3tHhPxtqn0_50OSmm_h-62" edge="1" parent="1" source="T3tHhPxtqn0_50OSmm_h-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="T3tHhPxtqn0_50OSmm_h-49">
@@ -26,6 +26,11 @@
               <mxPoint x="188" y="817" />
             </Array>
             <mxPoint x="188" y="789.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oZC3OOgqnNXRfj2_iYg0-1" connectable="0" parent="T3tHhPxtqn0_50OSmm_h-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.9428" y="1" as="geometry">
+            <mxPoint x="9" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="T3tHhPxtqn0_50OSmm_h-42" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=none;" value="赛道信息是否有效" vertex="1">
