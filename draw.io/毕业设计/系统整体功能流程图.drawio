@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="I5QYxL_e9CQ8vORsrXlX">
-    <mxGraphModel dx="1377" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2175" dy="1217" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,28 +11,35 @@
           <mxGeometry height="54" width="204" x="112" y="482" as="geometry" />
         </mxCell>
         <mxCell id="zWOEAIPhYLGLeaexr9As-61" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=none;" value="赛道有效?" vertex="1">
-          <mxGeometry height="99" width="124" x="152" y="590" as="geometry" />
+          <mxGeometry height="70" width="124" x="152" y="590" as="geometry" />
         </mxCell>
         <mxCell id="zWOEAIPhYLGLeaexr9As-62" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;strokeColor=default;fontColor=light-dark(#333333,#cccccc);" value="误差融合" vertex="1">
-          <mxGeometry height="54" width="124" x="39.5" y="750" as="geometry" />
+          <mxGeometry height="54" width="124" x="39.5" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="Jgnu3guSyKrTzqr-QHuh-8" edge="1" parent="1" source="zWOEAIPhYLGLeaexr9As-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zWOEAIPhYLGLeaexr9As-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="937" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="zWOEAIPhYLGLeaexr9As-63" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="PID计算转向量" vertex="1">
-          <mxGeometry height="54" width="163" x="20" y="860" as="geometry" />
+          <mxGeometry height="50" width="140" x="31.5" y="820" as="geometry" />
         </mxCell>
         <mxCell id="zWOEAIPhYLGLeaexr9As-64" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="差速混控输出左右电机" vertex="1">
-          <mxGeometry height="54" width="220" x="210" y="990" as="geometry" />
+          <mxGeometry height="54" width="220" x="210" y="910" as="geometry" />
         </mxCell>
         <mxCell id="zWOEAIPhYLGLeaexr9As-65" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="执行丢线搜线策略" vertex="1">
-          <mxGeometry height="54" width="188" x="226" y="750" as="geometry" />
+          <mxGeometry height="54" width="188" x="226" y="710" as="geometry" />
         </mxCell>
         <mxCell id="zWOEAIPhYLGLeaexr9As-66" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="刷新显示与内存回收" vertex="1">
-          <mxGeometry height="54" width="204" x="218" y="1094" as="geometry" />
+          <mxGeometry height="54" width="204" x="218" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="Jgnu3guSyKrTzqr-QHuh-7" edge="1" parent="1" source="zWOEAIPhYLGLeaexr9As-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Jgnu3guSyKrTzqr-QHuh-1" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zWOEAIPhYLGLeaexr9As-67" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=none;" value="退出条件满足?" vertex="1">
-          <mxGeometry height="106" width="156" x="242" y="1210" as="geometry" />
-        </mxCell>
-        <mxCell id="zWOEAIPhYLGLeaexr9As-68" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="停止电机并退出" vertex="1">
-          <mxGeometry height="54" width="172" x="234" y="1380" as="geometry" />
+          <mxGeometry height="70" width="156" x="242" y="1150" as="geometry" />
         </mxCell>
         <mxCell id="zWOEAIPhYLGLeaexr9As-72" edge="1" parent="1" source="zWOEAIPhYLGLeaexr9As-59" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;" target="zWOEAIPhYLGLeaexr9As-60" value="">
           <mxGeometry relative="1" as="geometry">
@@ -51,12 +58,6 @@
         </mxCell>
         <mxCell id="zWOEAIPhYLGLeaexr9As-79" edge="1" parent="1" source="zWOEAIPhYLGLeaexr9As-64" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="zWOEAIPhYLGLeaexr9As-66" value="">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zWOEAIPhYLGLeaexr9As-82" edge="1" parent="1" source="zWOEAIPhYLGLeaexr9As-67" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;labelBackgroundColor=none;" target="zWOEAIPhYLGLeaexr9As-68" value="是">
-          <mxGeometry relative="1" x="-0.7333" y="10" as="geometry">
-            <mxPoint as="offset" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -80,16 +81,6 @@
         <mxCell id="zWOEAIPhYLGLeaexr9As-95" connectable="0" parent="zWOEAIPhYLGLeaexr9As-94" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;span&gt;否&amp;nbsp;&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1649" y="2" as="geometry">
             <mxPoint x="8" y="-10" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zWOEAIPhYLGLeaexr9As-97" edge="1" parent="1" source="zWOEAIPhYLGLeaexr9As-63" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="zWOEAIPhYLGLeaexr9As-64" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <Array as="points">
-              <mxPoint x="100" y="914" />
-              <mxPoint x="100" y="1017" />
-            </Array>
-            <mxPoint x="90" y="1030" as="sourcePoint" />
-            <mxPoint x="140" y="980" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zWOEAIPhYLGLeaexr9As-98" edge="1" parent="1" source="zWOEAIPhYLGLeaexr9As-65" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="zWOEAIPhYLGLeaexr9As-64" value="">
@@ -117,6 +108,15 @@
           <mxGeometry relative="1" x="-0.9593" y="1" as="geometry">
             <mxPoint x="-1" y="-12" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Jgnu3guSyKrTzqr-QHuh-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" value="结束" vertex="1">
+          <mxGeometry height="40" width="120" x="260" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="Jgnu3guSyKrTzqr-QHuh-3" edge="1" parent="1" source="Jgnu3guSyKrTzqr-QHuh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zWOEAIPhYLGLeaexr9As-59" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jgnu3guSyKrTzqr-QHuh-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" value="开始" vertex="1">
+          <mxGeometry height="40" width="120" x="154.5" y="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
