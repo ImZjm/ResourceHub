@@ -1,17 +1,26 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="ZZROomGxAjZNVAIiVtHU">
-    <mxGraphModel dx="964" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="673" dy="377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Fyv5tgcPW2UnVRiNs2Lm-20" edge="1" parent="1" source="Fyv5tgcPW2UnVRiNs2Lm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Fyv5tgcPW2UnVRiNs2Lm-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Fyv5tgcPW2UnVRiNs2Lm-20" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Fyv5tgcPW2UnVRiNs2Lm-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="304" y="100" />
+              <mxPoint x="150" y="100" />
+            </Array>
+            <mxPoint x="303.504" y="74" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Fyv5tgcPW2UnVRiNs2Lm-21" edge="1" parent="1" source="Fyv5tgcPW2UnVRiNs2Lm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Fyv5tgcPW2UnVRiNs2Lm-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Fyv5tgcPW2UnVRiNs2Lm-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="启动双CCD采样" vertex="1">
-          <mxGeometry height="54" width="179" x="214" y="20" as="geometry" />
+        <mxCell id="Fyv5tgcPW2UnVRiNs2Lm-21" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Fyv5tgcPW2UnVRiNs2Lm-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="304" y="100" />
+              <mxPoint x="459" y="100" />
+            </Array>
+            <mxPoint x="303.504" y="74" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Fyv5tgcPW2UnVRiNs2Lm-15" edge="1" parent="1" source="Fyv5tgcPW2UnVRiNs2Lm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Fyv5tgcPW2UnVRiNs2Lm-4" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -37,14 +46,19 @@
         <mxCell id="Fyv5tgcPW2UnVRiNs2Lm-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="形成远场观测量" vertex="1">
           <mxGeometry height="54" width="172" x="372" y="228" as="geometry" />
         </mxCell>
-        <mxCell id="Fyv5tgcPW2UnVRiNs2Lm-19" edge="1" parent="1" source="Fyv5tgcPW2UnVRiNs2Lm-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Fyv5tgcPW2UnVRiNs2Lm-7" value="">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Fyv5tgcPW2UnVRiNs2Lm-19" edge="1" parent="1" source="Fyv5tgcPW2UnVRiNs2Lm-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="304.0000000000001" y="436" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Fyv5tgcPW2UnVRiNs2Lm-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="双视角信息互补" vertex="1">
           <mxGeometry height="54" width="172" x="218" y="332" as="geometry" />
         </mxCell>
-        <mxCell id="Fyv5tgcPW2UnVRiNs2Lm-7" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="输出用于后续控制的综合观测" vertex="1">
-          <mxGeometry height="54" width="260" x="174" y="436" as="geometry" />
+        <mxCell id="TFlD17yZPAbWttH9sf_j-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" value="开始" vertex="1">
+          <mxGeometry height="54" width="179" x="214" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TFlD17yZPAbWttH9sf_j-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" value="结束" vertex="1">
+          <mxGeometry height="54" width="179" x="214.5" y="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
