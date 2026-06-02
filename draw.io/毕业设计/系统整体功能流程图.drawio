@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="I5QYxL_e9CQ8vORsrXlX">
-    <mxGraphModel dx="2175" dy="1217" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1768" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,8 +35,15 @@
         <mxCell id="zWOEAIPhYLGLeaexr9As-66" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="刷新显示与内存回收" vertex="1">
           <mxGeometry height="54" width="204" x="218" y="1030" as="geometry" />
         </mxCell>
-        <mxCell id="Jgnu3guSyKrTzqr-QHuh-7" edge="1" parent="1" source="zWOEAIPhYLGLeaexr9As-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Jgnu3guSyKrTzqr-QHuh-1" value="">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Jgnu3guSyKrTzqr-QHuh-7" edge="1" parent="1" source="zWOEAIPhYLGLeaexr9As-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I6NkShCCZvc4hMIjrWN4-3" connectable="0" parent="Jgnu3guSyKrTzqr-QHuh-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.6333" y="1" as="geometry">
+            <mxPoint x="9" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="zWOEAIPhYLGLeaexr9As-67" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=none;" value="退出条件满足?" vertex="1">
           <mxGeometry height="70" width="156" x="242" y="1150" as="geometry" />
@@ -109,14 +116,16 @@
             <mxPoint x="-1" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jgnu3guSyKrTzqr-QHuh-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" value="结束" vertex="1">
-          <mxGeometry height="40" width="120" x="260" y="1270" as="geometry" />
+        <mxCell id="Jgnu3guSyKrTzqr-QHuh-3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zWOEAIPhYLGLeaexr9As-59" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="214.5076923076923" y="340" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Jgnu3guSyKrTzqr-QHuh-3" edge="1" parent="1" source="Jgnu3guSyKrTzqr-QHuh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zWOEAIPhYLGLeaexr9As-59" value="">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="I6NkShCCZvc4hMIjrWN4-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=none;" value="开始" vertex="1">
+          <mxGeometry height="50" width="120" x="154.5" y="290" as="geometry" />
         </mxCell>
-        <mxCell id="Jgnu3guSyKrTzqr-QHuh-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" value="开始" vertex="1">
-          <mxGeometry height="40" width="120" x="154.5" y="300" as="geometry" />
+        <mxCell id="I6NkShCCZvc4hMIjrWN4-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=none;" value="结束" vertex="1">
+          <mxGeometry height="50" width="120" x="260" y="1270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
