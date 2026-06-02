@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="FSt479wwhXZQIxWG6IBh">
-    <mxGraphModel dx="857" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2020" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,22 +76,19 @@
         <mxCell id="T3tHhPxtqn0_50OSmm_h-49" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" value="闭环控制" vertex="1">
           <mxGeometry height="54" width="188" x="402" y="790" as="geometry" />
         </mxCell>
-        <mxCell id="T3tHhPxtqn0_50OSmm_h-50" edge="1" parent="1" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="T3tHhPxtqn0_50OSmm_h-42" value="">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-            <mxPoint x="369" y="75" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="T3tHhPxtqn0_50OSmm_h-54" edge="1" parent="1" source="T3tHhPxtqn0_50OSmm_h-45" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="T3tHhPxtqn0_50OSmm_h-46" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PWFWtbltoUu292U8LSIP-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" value="开始" vertex="1">
-          <mxGeometry height="54" width="188" x="275" y="21" as="geometry" />
+        <mxCell id="i4FZe3LNVFUZJ3x8ogXq-2" edge="1" parent="1" source="i4FZe3LNVFUZJ3x8ogXq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="T3tHhPxtqn0_50OSmm_h-42" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PWFWtbltoUu292U8LSIP-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" value="结束" vertex="1">
-          <mxGeometry height="54" width="188" x="402" y="900" as="geometry" />
+        <mxCell id="i4FZe3LNVFUZJ3x8ogXq-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=none;" value="开始" vertex="1">
+          <mxGeometry height="50" width="120" x="309" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i4FZe3LNVFUZJ3x8ogXq-3" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=none;" value="结束" vertex="1">
+          <mxGeometry height="50" width="120" x="436" y="900" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
